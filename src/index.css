@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+    --color-background: #06070e; /* Couleur d'arrière-plan principale (fond général de l'UI) */
+    --color-foreground: #fbfcfd; /* Couleur du texte principal (contraste avec le background) */
+
+    --color-muted: #1f2027; /* Fond des éléments secondaires (ex : badges, alertes discrètes) */
+    --color-muted-foreground: #979aaa; /* Texte pour les éléments secondaires/mutés */
+
+    --color-popover: #070911; /* Fond des popovers (menus déroulants, tooltips) */
+    --color-popover-foreground: #ffffff; /* Texte à l'intérieur des popovers */
+
+    --color-card: #070911; /* Fond des cartes (card components) */
+    --color-card-foreground: #ffffff; /* Texte dans les cartes */
+
+    --color-border: #252a38; /* Couleur des bordures pour inputs, cartes, boutons */
+    --color-input: #252a38; /* Fond des champs de formulaire et des inputs */
+
+    --color-primary: #4c8cff; /* Couleur principale (boutons primaires, liens actifs) */
+    --color-primary-foreground: #ffffff; /* Texte sur les éléments primaires */
+
+    --color-secondary: #0d0f15; /* Couleur des boutons secondaires ou fonds alternatifs */
+    --color-secondary-foreground: #8d94ab; /* Texte sur les boutons secondaires */
+
+    --color-accent: #1c2230; /* Couleur des accents (hover, focus sur certains éléments) */
+    --color-accent-foreground: #aab3cc; /* Texte dans les zones accentuées */
+
+    --color-ring: #4c8cff; /* Effets d'anneau autour des éléments actifs (focus sur inputs, boutons) */
+
+    --color-react: #50A2FF;
+
+    --color-tailwind: #00BCFF;
+
+    --color-laravel: #eb4432;
+
+    --color-node: #8CC84B;
+
+
+}
