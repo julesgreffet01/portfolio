@@ -37,8 +37,7 @@ export default function Test() {
     return (
         <div className="bg-background min-h-screen">
             <Header/>
-            <p className="mb-20 text-foreground">test</p>
-            <div className="flex items-center justify-center max-w-[1200px] m-auto">
+            <div className="flex items-center justify-center max-w-[1200px] mx-auto">
                 {technos.map((tech, index) => (
                     <TechnoSVG
                         key={index}
@@ -55,16 +54,6 @@ export default function Test() {
                     </TechnoText>
                 </div>
             </div>
-            <br/>
-            <br/><br/>
-            <br/>
-            <br/>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorem dolores dolorum eos eum hic
-                id impedit ipsum laborum maxime quaerat quia sint veniam? Assumenda beatae dolore illum quia vitae.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dolorem dolores dolorum eos eum hic
-                id impedit ipsum laborum maxime quaerat quia sint veniam? Assumenda beatae dolore illum quia vitae.</p>
         </div>
     );
 }
