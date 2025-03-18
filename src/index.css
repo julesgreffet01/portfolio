@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-    --color-background: #0D1520;  /* Couleur d'arrière-plan principale (fond général de l'UI)  06070e*/
+    --color-background: #0D1520;  /* Couleur d'arrière-plan principale (fond général de l'UI) 0D1520 06070e*/
     --color-foreground: #fbfcfd; /* Couleur du texte principal (contraste avec le background) */
 
     --color-muted: #003362; /* Fond des éléments secondaires (ex : badges, alertes discrètes) 1f2027*/
