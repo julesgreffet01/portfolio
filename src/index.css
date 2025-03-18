@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-    --color-background: #06070e; /* Couleur d'arrière-plan principale (fond général de l'UI) */
+    --color-background: #0D1520;  /* Couleur d'arrière-plan principale (fond général de l'UI)  06070e*/
     --color-foreground: #fbfcfd; /* Couleur du texte principal (contraste avec le background) */
 
-    --color-muted: #1f2027; /* Fond des éléments secondaires (ex : badges, alertes discrètes) */
+    --color-muted: #003362; /* Fond des éléments secondaires (ex : badges, alertes discrètes) 1f2027*/
     --color-muted-foreground: #979aaa; /* Texte pour les éléments secondaires/mutés */
 
     --color-popover: #070911; /* Fond des popovers (menus déroulants, tooltips) */
@@ -16,7 +16,7 @@
     --color-border: #252a38; /* Couleur des bordures pour inputs, cartes, boutons */
     --color-input: #252a38; /* Fond des champs de formulaire et des inputs */
 
-    --color-primary: #4c8cff; /* Couleur principale (boutons primaires, liens actifs) */
+    --color-primary: #2870BD; /* Couleur principale (boutons primaires, liens actifs) 4c8cff*/
     --color-primary-foreground: #ffffff; /* Texte sur les éléments primaires */
 
     --color-secondary: #0d0f15; /* Couleur des boutons secondaires ou fonds alternatifs */

@@ -4,7 +4,7 @@ import { LinkedinIcon } from "./LinkedinIcon.jsx";
 const Header = () => {
     return (
         <div className="h-20 text-foreground">
-            <div className="flex items-center justify-between max-w-[1200px] m-auto p-4 px-10">
+            <div className="flex items-center justify-between max-w-[1100px] m-auto p-4 px-10">
                 <p className="text-3xl font-bold">Greffet Jules</p>
                 <div className="flex items-center gap-5 flex-grow justify-center">
                     <ul className="text-xl flex items-center gap-5 justify-center">
