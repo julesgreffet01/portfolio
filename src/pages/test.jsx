@@ -1,6 +1,7 @@
 import TechnoSVG from "../components/TechnoImage.jsx";
 import TechnoText from "../components/TechnoText";
 import Header from "../components/Header";
+import {BentoGridSecondDemo} from "../components/aceternity/UseBentoGrid.jsx";
 
 export default function Test() {
     const technos = [
@@ -53,6 +54,9 @@ export default function Test() {
                         React
                     </TechnoText>
                 </div>
+            </div>
+            <div className="py-20">
+                <BentoGridSecondDemo />
             </div>
         </div>
     );
