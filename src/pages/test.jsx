@@ -2,6 +2,7 @@ import TechnoSVG from "../components/TechnoImage.jsx";
 import TechnoText from "../components/TechnoText";
 import Header from "../components/Header";
 import {BentoGridSecondDemo} from "../components/aceternity/UseBentoGrid.jsx";
+import {AnimatedTestimonialsDemo} from "../components/aceternity/UseCarousel.jsx";
 
 export default function Test() {
     const technos = [
@@ -56,7 +57,10 @@ export default function Test() {
                 </div>
             </div>
             <div className="py-20">
-                <BentoGridSecondDemo />
+                <BentoGridSecondDemo/>
+            </div>
+            <div className="py-20">
+                <AnimatedTestimonialsDemo/>
             </div>
         </div>
     );
