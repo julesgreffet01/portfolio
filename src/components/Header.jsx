@@ -1,16 +1,19 @@
 import { GithubIcon } from "./GithubIcon.jsx";
 import { LinkedinIcon } from "./LinkedinIcon.jsx";
+import { Link } from "react-scroll";
 
 const Header = () => {
     return (
         <div className="h-20 text-foreground">
             <div className="flex items-center justify-between max-w-[1100px] m-auto p-4 px-10">
-                <p className="text-3xl font-bold">Greffet Jules</p>
+                <p className="md:text-3xl text-xl font-bold">Greffet Jules</p>
                 <div className="flex items-center gap-5 flex-grow justify-center">
                     <ul className="text-xl flex items-center gap-5 justify-center">
-                        <li className="hover:bg-muted p-2 rounded transition duration-300 cursor-pointer">À propos</li>
-                        <li className="hover:bg-muted p-2 rounded transition duration-300 cursor-pointer">Timeline</li>
-                        <li className="hover:bg-muted p-2 rounded transition duration-300 cursor-pointer">Épreuve E4</li>
+                        <li className="hover:bg-muted p-2 rounded transition duration-300 cursor-pointer">
+                            <Link to="competences" smooth={true} duration={200} offset={-80} className="cursor-pointer">
+                                Compétences
+                            </Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="flex items-center gap-5">
